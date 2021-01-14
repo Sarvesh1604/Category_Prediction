@@ -62,7 +62,7 @@ for word in vocab_whole:
       prob_class_cond[key][word] = 0.0001
       
       
-#Posterior distribution for each test sentence, and
+#Posterior distribution for each test sentence and
 #catagory prediction
 data_test = pd.read_csv('testdata.csv')
 sent_test = data_test.iloc[:, 1].values
